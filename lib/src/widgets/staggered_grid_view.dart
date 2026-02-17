@@ -164,6 +164,7 @@ class StaggeredGridView extends BoxScrollView {
     super.physics,
     super.shrinkWrap,
     super.padding,
+    super.cacheExtent,
     required int crossAxisCount,
     required IndexedWidgetBuilder itemBuilder,
     required IndexedStaggeredTileBuilder staggeredTileBuilder,
